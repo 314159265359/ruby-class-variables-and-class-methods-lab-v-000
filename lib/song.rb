@@ -7,8 +7,5 @@ class Song
     # @roster = Hash.new{ |h, k| h[k] = [] }
   end
 
-  def name
-    @name = name
-  end
 
 end
