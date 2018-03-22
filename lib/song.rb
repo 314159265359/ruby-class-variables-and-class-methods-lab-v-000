@@ -7,4 +7,8 @@ def initialize(name,artist,genre)
   # @roster = Hash.new{ |h, k| h[k] = [] }
 end
 
+  def name
+    @name = name
+  end
+
 end
