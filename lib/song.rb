@@ -28,10 +28,7 @@ class Song
   end
 
   def genre_count
-    counts = Hash.new(0)
-    @@genres.each do |genre|
-      counts[genre] += 1
-    end
+    @@genres.inject(Hash.new(0)) { |total, e| total[e] += 1 ;total}
   end
 
 end
