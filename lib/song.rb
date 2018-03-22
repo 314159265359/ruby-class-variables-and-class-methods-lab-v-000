@@ -6,7 +6,6 @@ class Song
     @name = name
     @artist = artist
     @genre = genre
-    # @roster = Hash.new{ |h, k| h[k] = [] }
   end
 
 
