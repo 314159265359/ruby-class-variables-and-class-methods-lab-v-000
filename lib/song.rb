@@ -1,8 +1,8 @@
-# class Song
-#
-#   attr_accessor :name, :artist, :genre
-#
-# def initialize(name)
-#   @name = name
-#   @roster = Hash.new{ |h, k| h[k] = [] }
-# end
+class Song
+
+  attr_accessor :name, :artist, :genre
+
+def initialize(name,artist,genre)
+  # @name = name
+  # @roster = Hash.new{ |h, k| h[k] = [] }
+end
