@@ -35,7 +35,7 @@ class Song
     end
 
     genre_counter.each do |k, v|
-    k=>v
+    genre_counter[k]=>v
    end
   end
 
