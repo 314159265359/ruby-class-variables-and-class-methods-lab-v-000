@@ -28,7 +28,8 @@ class Song
   end
 
   def genre_count
-    @@genres.each_with_object(Hash.new(0)){|string, hash| hash[string] += 1}
+    counts = Hash.new(0)
+    @@genres.each { |genre| counts[genre] += 1 }
   end
 
 end
