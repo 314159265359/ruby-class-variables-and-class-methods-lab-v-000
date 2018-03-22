@@ -28,15 +28,7 @@ class Song
   end
 
   def genre_count
-    genre_counter = Hash.new{ |h, k| h[k] = [] }
-
-    @@genres.each do |v|
-    genre_counter[v] += 1
-    end
-
-    genre_counter.each do |k, v|
-    genre_counter[k]=>v
-   end
-  end
+    counts = Hash.new(0)
+    @@genres.each { |genre| counts[genre] += 1 }
 
 end
